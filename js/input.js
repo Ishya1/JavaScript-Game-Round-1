@@ -13,6 +13,5 @@ function keyPressed() {
 
     } else if (keyCode === UP_ARROW) {
         game.player.c += -1;
-
     }
 }

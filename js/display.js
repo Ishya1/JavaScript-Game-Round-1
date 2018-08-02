@@ -1,8 +1,8 @@
 let gridSize = 40;
 let gridMargin = 10;
 let gridSpace = 3;
-let canvasWidth = COLS * gridSize + 2 * gridMargin;
-let canvasHeight = ROWS * gridSize + 2 * gridMargin;
+let canvasWidth = COLS * gridSize + 2 * gridMargin + (cols - 1) *gridSpace;
+let canvasHeight = ROWS * gridSize + 2 * gridMargin + (cols - 1) *gridSpace;;
 let colors = [
     "red",
     "blue",
@@ -11,7 +11,7 @@ let colors = [
     "green",
     "yellow"
  ];
- function translateXY (r,c) {
+function translateXY (r,c) {}
     let x = c * gridSize + gridSize /2 + gridMargin;
     let y = r * gridSize + gridSize /2 + gridMargin;
     return {
