@@ -1,5 +1,8 @@
 let game = {
-    score: 0,
+    score: {
+        player1: 0,
+        player2: 0
+    },
     isRunning: false,
     player: {r:0,c:0,colorIndex:1},
     enemy:  {r:5,c:5,colorIndex:2},
