@@ -1,16 +1,15 @@
 let game = {
     score: 0,
     isRunning: false,
-    player: {r:0, c:0, colorIndex:1},
-    enemy: {r:5, c:5, colorIndex: 2},
+    player: {r:0,c:0,colorIndex:1},
+    enemy:  {r:5,c:5,colorIndex:2},
     board: [
         [0,0,0,0,0,0],
+        [0,1,0,0,0,0],
         [0,0,0,0,0,0],
         [0,0,0,0,0,0],
-        [0,0,0,0,0,0],
-        [0,0,0,0,0,0],
+        [0,0,0,0,2,0],
         [0,0,0,0,0,0]
-        
     ]
 };
 

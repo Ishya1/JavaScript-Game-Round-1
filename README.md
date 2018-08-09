@@ -10,3 +10,4 @@ Links:
 Ideas:
 - portals
 - power ups
+- mouse support?
